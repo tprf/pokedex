@@ -1,5 +1,6 @@
 package com.example.pokedex;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -22,7 +23,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity2 extends Activity {
 
     private static final String BASE_URL = "https://raw.githubusercontent.com";
 
@@ -36,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.pokedex);
 
         SharedPreferences= getSharedPreferences("user_prefs", Context.MODE_PRIVATE);
 
@@ -48,7 +49,7 @@ public class MainActivity2 extends AppCompatActivity {
         {
             showList(pokemonList);
         }
-        else  makeApiCall2();
+        else  makeApiCall();
 
         //makeApiCall();
 
@@ -57,7 +58,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     private List<Pokemon> dataExist()
     {
-        String jsonPokemon= SharedPreferences.getString("jsonPokemon2List", null);
+        String jsonPokemon= SharedPreferences.getString("jsonPokemonList", null);
         if (jsonPokemon==null){return null;}
         else{
             Type listType= new TypeToken<List<Pokemon>>(){}.getType();
@@ -78,7 +79,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
 
-    private void makeApiCall2()
+    private void makeApiCall()
     {
 
 
@@ -110,11 +111,11 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
-    private void saveList(List<Pokemon> pokemon2List) {
-        String jsonString = gson.toJson(pokemon2List);
+    private void saveList(List<Pokemon> pokemonList) {
+        String jsonString = gson.toJson(pokemonList);
         SharedPreferences
                 .edit()
-                .putString("jsonPokemon2List", jsonString)
+                .putString("jsonPokemonList", jsonString)
                 .apply();
     }
 
