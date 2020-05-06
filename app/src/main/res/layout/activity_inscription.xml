@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="Inscription">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:background="@drawable/inscription"
+        android:layout_height="271dp">
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="371dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="INSCRIPTION"
+/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/til_pseudo_reg">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_pseudoRE"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:hint="Pseudo"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/til_email_reg">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_mailRE"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:hint="Email"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    -<com.google.android.material.textfield.TextInputLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/til_password1_reg"
+        app:passwordToggleEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_password1RE"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:hint="Mot de passe"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    -<com.google.android.material.textfield.TextInputLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/til_password2_reg">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_password2RE"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:hint="Confirmation du mot de passe"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp">
+
+    <Button
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="S'inscrire"
+        android:id="@+id/btn_send"
+        android:textColor="#ffff"/>
+
+
+</LinearLayout>
+
+
+</LinearLayout>
