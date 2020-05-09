@@ -19,6 +19,8 @@ Cette application permet à un client de s'inscrire puis de se connecter et d'af
 
 ## Fonctionalitées
 
+![page d'accueil](C:/Users/wgorchane/Desktop/page_acceuil.png)
+Format: ![Alt Text](url)
 
 
 
