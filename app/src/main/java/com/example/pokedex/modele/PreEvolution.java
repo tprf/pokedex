@@ -1,4 +1,4 @@
-package com.example.pokedex;
+package com.example.pokedex.modele;
 
 public class PreEvolution {
     private String num;

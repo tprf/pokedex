@@ -1,4 +1,4 @@
-package com.example.pokedex;
+package com.example.pokedex.vue;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,6 +8,11 @@ import android.widget.Toast;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.pokedex.R;
+import com.example.pokedex.modele.IPokemonDex;
+import com.example.pokedex.modele.ListAdapter;
+import com.example.pokedex.modele.Pokedex;
+import com.example.pokedex.modele.Pokemon;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;

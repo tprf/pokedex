@@ -1,4 +1,4 @@
-package com.example.pokedex;
+package com.example.pokedex.vue;
 
     import android.content.Intent;
     import android.os.Bundle;
@@ -11,6 +11,10 @@ package com.example.pokedex;
 
 
     import androidx.appcompat.app.AppCompatActivity;
+
+    import com.example.pokedex.R;
+    import com.example.pokedex.controleur.MyRequest;
+    import com.example.pokedex.controleur.VolleySingleton;
 
     import java.util.Map;
 

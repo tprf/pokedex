@@ -1,13 +1,9 @@
-package com.example.pokedex;
+package com.example.pokedex.controleur;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.util.Log;
-import android.util.LruCache;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.ImageLoader;
-import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -24,8 +20,8 @@ public class MyRequest {
     private Context context;
     private RequestQueue queue;
 
-    // A  DE COMMENTER EN FONCTIONS DU PC UTILISE
-    private final String cheminServeur = ;
+    // METTRE LE CHEMIN !!!!!!!!!!!!!!!
+    private final String cheminServeur = "";
 
     /**
      * Constructeur de la classe

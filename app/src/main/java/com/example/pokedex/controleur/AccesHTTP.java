@@ -1,9 +1,7 @@
-package com.example.pokedex;
+package com.example.pokedex.controleur;
 
 import android.os.AsyncTask;
 import android.util.Log;
-
-
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -20,7 +18,7 @@ public class AccesHTTP extends AsyncTask<String, Integer,Long> {
      */
     public AccesHTTP(){
 
-        parametres = new ArrayList<NameValuePair>();
+        parametres = new ArrayList<NameValuePair>();//pour mettre les parametre http sous forme clé,valeur
 
     }
 

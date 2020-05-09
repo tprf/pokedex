@@ -1,4 +1,4 @@
-package com.example.pokedex;
+package com.example.pokedex.modele;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

@@ -1,4 +1,4 @@
-package com.example.pokedex;
+package com.example.pokedex.controleur;
 
 import android.content.Context;
 import android.content.SharedPreferences;
