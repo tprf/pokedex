@@ -6,11 +6,7 @@ package com.example.pokedex;
     import android.widget.Button;
     import android.widget.Toast;
 
-    import com.android.volley.RequestQueue;
-    import com.example.safelockproject.controleur.MyRequest;
-    import com.example.safelockproject.R;
-    import com.example.safelockproject.controleur.VolleySingleton;
-    import com.google.android.material.textfield.TextInputLayout;
+
 
 
 
@@ -64,7 +60,7 @@ package com.example.pokedex;
                             @Override
                             public void onSuccess(String message) {
 
-                                Intent intent = new Intent(getApplicationContext(), Connexion.class);
+                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                                 intent.putExtra("REGISTER", message);
                                 startActivity(intent);
                                 finish();

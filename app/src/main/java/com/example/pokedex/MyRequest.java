@@ -2,11 +2,18 @@ package com.example.pokedex;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.util.Log;
 import android.util.LruCache;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -94,7 +101,7 @@ public class MyRequest {
         }){
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
-                Map <String,String> map = new HashMap<>();
+                Map<String,String> map = new HashMap<>();
                 map.put("pseudo", pseudo); // en php la clÃ© sert pour : $_POST['pseudo']
                 map.put("email", email);
                 map.put("password", password);
