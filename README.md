@@ -19,8 +19,7 @@ Cette application permet à un client de s'inscrire puis de se connecter et d'af
 
 ## Fonctionalitées
 
-![page d'accueil]
-(C:/Users/wgorchane/Desktop/page_acceuil.png)
+<img width="180" alt="page_acceuil" src="https://user-images.githubusercontent.com/62743450/81472121-28c1e700-91f6-11ea-9d64-202669b528f3.PNG">
 
 
 
