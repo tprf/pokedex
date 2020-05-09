@@ -19,14 +19,14 @@ Cette application permet à un client de s'inscrire puis de se connecter et d'af
 
 ## Fonctionalitées
 
+### Page d'accueil
 <img width="180" alt="page_acceuil" src="https://user-images.githubusercontent.com/62743450/81472121-28c1e700-91f6-11ea-9d64-202669b528f3.PNG">
 
-
-
-
+### Page d'inscription
 <img width="179" alt="inscription" src="https://user-images.githubusercontent.com/62743450/81472634-b2bf7f00-91f9-11ea-81bb-8c511758cac4.PNG">
 
-
+### Page de connexion
+<img width="178" alt="connexion" src="https://user-images.githubusercontent.com/62743450/81472660-df739680-91f9-11ea-9266-ecaad68d0fb8.PNG">
 
 
 
