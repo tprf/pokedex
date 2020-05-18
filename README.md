@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Mon projet à pour vocation d'afficher une list de pokemon. Elle utilise l'api "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json"
+Mon projet à pour vocation d'afficher une list de pokemon. Elle utilise l'api "https://pokeapi.co/api/v2/pokemon/"
 Cette application permet à un client de s'inscrire puis de se connecter et d'afficher une liste de pokemon.
 
 ## Consignes respectées
