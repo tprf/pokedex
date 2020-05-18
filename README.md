@@ -2,8 +2,8 @@
 
 ## Présentation
 
-Mon projet à pour vocation d'afficher une list de pokemon. Elle utilise l'api "https://pokeapi.co/api/v2/pokemon/"
-Cette application permet à un client de s'inscrire puis de se connecter et d'afficher une liste de pokemon.
+Mon projet à pour vocation d'afficher une liste de pokemon avec le nom d'un pokemon et son lien .
+Cette application permet à un client de s'inscrire puis de se connecter et d'afficher la liste.
 
 ## Consignes respectées
 
